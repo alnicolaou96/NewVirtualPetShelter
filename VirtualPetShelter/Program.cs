@@ -21,13 +21,20 @@ namespace VirtualPetShelter
             while ((VolunteerOrAdopt != "volunteer")&&(VolunteerOrAdopt!="adopt"));
             //breaks the loop when the user appropriately answers the prompt
 
-            if (VolunteerOrAdopt == "volunteer")
+            if (VolunteerOrAdopt == "adopt")
             {
                 Console.WriteLine("Which pet would you like to adopt?");
+                Console.WriteLine("Animal 1");
+                Console.WriteLine("Animal 2");
+                Console.WriteLine("Animal 3");
+                Console.WriteLine("Animal 4");
             }
-            else if (VolunteerOrAdopt == "adopt")
+            else if (VolunteerOrAdopt == "volunteer")
             {
                 Console.WriteLine("Which job would you like to take on first?");
+                Console.WriteLine("Clean cages");
+                Console.WriteLine("Feed animals");
+                Console.WriteLine("Walk animals");
             }
 
         }
